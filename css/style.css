@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f4;
+    color: #181818;
+    line-height: 1.4;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    border: 1px solid #f4f4f4;
+    margin: 8rem auto;
+    padding: 1rem;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 6px 5px -2px rgba(172, 172, 172, 0.5);
+}
+
+header h1 {
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+input {
+    padding: 0.5rem 0.3rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    width: 100px;
+    border: 1px solid #a6e1be;
+    border-radius: 5px;
+    background: #a6e1be;
+}
+
+#todo-list {
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+#todo-list div {
+    border: 1px solid #ccc;
+    padding: 0.7rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    /* background: #ffe5d9; */
+}
+
+.done {
+    background: #9d8189;
+    color: #fff;
+}
